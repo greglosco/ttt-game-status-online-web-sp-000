@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
   
 def won? (board)
   WIN_COMBINATIONS.detect do |combo|
-    
+    combo[0] == 
   end
   position_taken?(board, combo)
 end 
