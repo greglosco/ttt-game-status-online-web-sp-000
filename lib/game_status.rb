@@ -26,7 +26,7 @@ end
 
 def full? (board)
   board.all? do |position|
-    position == "X" || position = "0"
+    position == "X" || position == "0"
   end
 end
 
